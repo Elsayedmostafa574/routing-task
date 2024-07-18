@@ -1,0 +1,22 @@
+.home{
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2022/07/04/04/37/musician-7300353_960_720.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+    filter: grayscale(100%);
+    text-transform: capitalize;
+}
+.home .bg-home{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn{
+   padding: 15px 30px;
+   font-size: 20px;
+   font-weight: 600;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}

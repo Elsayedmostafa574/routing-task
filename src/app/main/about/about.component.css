@@ -1,0 +1,12 @@
+.yellow{
+    background-color: #F9BF3F;
+}
+.yellow p{
+    font-size: 30px;
+    line-height: 3rem;
+}
+.yellow .btn{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #000;
+}

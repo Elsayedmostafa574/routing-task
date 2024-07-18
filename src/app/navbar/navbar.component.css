@@ -1,0 +1,30 @@
+nav{
+    background-color: #5F5D9C;
+    color: #fff;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+ul li{
+    margin: auto;
+    transition: all 0.3s ; 
+
+}
+ul li a{
+    text-transform: uppercase;
+}
+ul li:hover{
+    border-bottom: 1px solid #fff;
+}
+.nav-active{
+    border-bottom: 1px solid #fff;
+}
